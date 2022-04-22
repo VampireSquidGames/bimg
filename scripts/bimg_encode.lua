@@ -63,3 +63,8 @@ project "bimg_encode"
 		}
 
 	configuration {}
+
+	-- custom path edits
+	libdirs { "../../../deps" }
+	objdir    "../../../intermediate/"
+    targetdir "../../../deps"
