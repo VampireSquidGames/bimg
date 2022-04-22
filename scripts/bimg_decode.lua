@@ -25,3 +25,8 @@ project "bimg_decode"
 		}
 
 	configuration {}
+
+	-- custom path edits
+	libdirs { "../../../deps" }
+	objdir    "../../../intermediate/"
+    targetdir "../../../deps"
